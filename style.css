@@ -114,9 +114,7 @@
     justify-content: space-between;
     margin-bottom: var(--bottom-margin);
 }
-.menu{
-    position:
-}
+
 nav > ul {
     display: flex;
     flex-direction: column;
@@ -211,4 +209,25 @@ footer{
 }
 .fa-brands{
     width: 2em;
+}
+
+/* ---------------
+            upcoming matches styles
+------------------ */
+.matches-card{
+    height: 242px;
+}
+.card-start{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+.card-start p {
+    margin-top: 1.2em;    
+}
+.card-end{
+    text-align: center;
+}
+.match-time{
+    color: #4D4D4D;
 }
